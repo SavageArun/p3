@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Arun prajapati | Front-End Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/836a943e18.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <html><head>
+<script type="text/javascript">
+window.onload = function() {
+  // Parse the tracking code from cookies.
+  var trk = "bf";
+  var trkInfo = "bf";
+  var cookies = document.cookie.split("; ");
+  for (var i = 0; i < cookies.length; ++i) {
+    if ((cookies[i].indexOf("trkCode=") == 0) && (cookies[i].length > 8)) {
+      trk = cookies[i].substring(8);
+    }
+    else if ((cookies[i].indexOf("trkInfo=") == 0) && (cookies[i].length > 8)) {
+      trkInfo = cookies[i].substring(8);
+    }
+  }
+
+  if (window.location.protocol == "http:") {
+    // If "sl" cookie is set, redirect to https.
+    for (var i = 0; i < cookies.length; ++i) {
+      if ((cookies[i].indexOf("sl=") == 0) && (cookies[i].length > 3)) {
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+        return;
+      }
+    }
+  }
+
+  // Get the new domain. For international domains such as
+  // fr.linkedin.com, we convert it to www.linkedin.com
+  // treat .cn similar to .com here
+  var domain = location.host;
+  if (domain != "www.linkedin.com" && domain != "www.linkedin.cn") {
+    var subdomainIndex = location.host.indexOf(".linkedin");
+    if (subdomainIndex != -1) {
+      domain = "www" + location.host.substring(subdomainIndex);
+    }
+  }
+}
+
+/*  window.location.href = "https://" + domain + "/authwall?trk=" + trk + "&trkInfo=" + trkInfo +
+      "&original_referer=" + document.referrer.substr(0, 200) +
+      "&sessionRedirect=" + encodeURIComponent(window.location.href);
+}
+</script>
+</head></html>
+
+    <header>
+      <div class="container">
+        <nav>
+          <div class="nav-brand">
+            <a href="index.html">
+              <img src="images/" alt="" />
+            </a>
+          </div>
+          <div class="burger-menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#landing-page">
+                <img
+                  src="https://vq.pe/creator/frontend/img/2319/1683632033-PicsArt_05-09-05.00.06.png"
+                  alt="arun"
+                  class="profile-pic nav-link"
+                />
+                <span class="caption nav-link">Arun Prajapati</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://savagearun.github.io/portfolio" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/SavageArun" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://savagearun.github.io/arunn" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.instagram.com/savage_arun/" target="_blank" class="nav-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/arun-prajapati-a5aa40262" target="_blank" class="nav-link">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" class="nav-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <div class="cta">
+              <a href="#" target="_blank" class="btn nav-link">IN PROGRESS</a>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="landing-page" class="landing-page">
+        <div class="container">
+          <div class="main-message">
+            <h2>Arun Kumar </h2>
+            <h1>{Web Developer | UI Designer}</h1>
+            <h3> Developer||UI DESIGNER</h3>
+            <p>Programming.  SMM .IT support </p>
+            <div class="intro-btn">
+              <div class="cta">
+                <a href="https://instagram.com/savage_arun?igshid=MzRlODBiNWFlZA==" class="btn">Get In Touch</a>
+              </div>
+              <div class="cta">
+                <a href="https://savagearun.github.io/arunn" class="btn">My Projects</a>
+              </div>
+            </div>
+            <div>
+              <a href="#about" class="scroll-down">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about-img">
+            <img
+              src="https://vq.pe/creator/frontend/img/2319/1683632033-PicsArt_05-09-05.00.06.png"
+              alt="arun kumar"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-text-box">
+            <h2>About me 👋</h2>
+            <p>
+              I am Arun kumar prajapati. I am from India. I am a Full Stack Web developer. From my childhood I like breaking and building staff. I love both software and hardware. Since my childhood I am curious about how the Information Technology works. From that part I am interested in computer science. I am interested in Cyber Security, Machine Learning, Artificial Intelligence and Robotics. Actually I am a good self learner and also a quick learner. I am looking for help from professional developers. If I get stuck in some point then I hope that I will find some solution from this platform.  
+            </p>
+            <p>
+           
+            My strength is my attitude where I like to take up challenges and my thinking to accept both success and failure in a balanced way to move forward. I do not like to say weaknesses, but I want to say that I do not leave any questions altogether, I believe in myself, the work I do, and I want fulfilment in everything.
+
+           My short-term goal is to find a platform where I 
+           can inflate my career and grow with the organization. My long-term goal is to be the cause of the organization’s success. My philosophy is “I always love to take challenges for my progress and steady growth”.
+            </p>
+            <p>Although i study 6th to 12th class from GSV & SKIC,which is 
+             Gandhi Smark Vidyalaya & shri Krishna inter College are fully residential, co-educational schools affiliated to UP Board, Noida.
+            </p>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section id="services" class="services">
+        <div class="container">
+          <div class="title-heading">
+            <h2>DIGITIZE YOUR BUSINESS</h2>
+            <p>
+              i will help you to create a remarkable first impression with
+              creative designs
+            </p>
+          </div>
+          <div class="service-tiers">
+            <div class="tier-item">
+              <i class="fa fa-code" aria-hidden="true"></i>
+              <h2>Web Development</h2>
+              <p>
+            In undergrad, I study computer science and enginerring and then decided to become a developer    because I saw how the web could complement creativity in the real world. The same is probably true for any field.
+
+            Becoming a web professional allows you to participate in absolutely any field, because the web has become universally present in our professional lives
+              </p>
+            </div>
+            <div class="tier-item">
+              <i class="fa fa-mobile" aria-hidden="true"></i>
+              <h2>Responsive Design</h2>
+              <p>
+                Design and development should respond to the user’s behavior and environment So i Create Visually appealing Responsive Designes for my Clients.
+              </p>
+            </div>
+            <div class="tier-item">
+              <i class="fa fa-file-code-o" aria-hidden="true"></i>
+              <h2>Programming </h2>
+              <p>
+             Computer programs (or software) are what make computers work. Without software, modern computers are just complicated machines for turning electricity into heat. It’s software on your computer that runs your operating system, browser, email, games, movie player – just about everything.
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section id="projects" class="projects">
+        <div class="title-heading">
+          <h2>PROJECTS</h2>
+          <p>these are some of my recent projects</p>
+        </div>
+        <div class="project-item">
+          <div class="project-img has-margin-right">
+            <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png" />
+          </div>
+          <div class="project-description">
+            <h2>Supercars Garage Website</h2>
+            <p>
+              I created a website for supercar garages,
+Where horsepower reigns and luxury engages.
+From sleek Ferraris to roaring Bugattis,
+A digital showcase for automotive bliss
+            </p>
+            <a href="https://savagearun.github.io/supercars" class="project-link" target="_blank"
+              ><i class="fa fa-github" aria-hidden="true"> View Site</i></a
+            >
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-description has-margin-right">
+            <h2>Car Cleaning & Dry Cleaning Website</h2>
+            <p>
+              I created a website for car cleaning, pristine and neat,
+Where vehicles shine with a captivating fleet.
+From sedans to SUVs, we cater to all,
+A digital platform for a sparkling haul.
+            </p>
+            <a href="https://savagearun
+            github.io/rahul" class="project-link" target="_blank"
+              ><i class="fa fa-github" aria-hidden="true"> View Site</i></a
+            >
+          </div>
+          <div class="project-img">
+            <img src="https://blog.tubikstudio.com/wp-content/uploads/2016/07/tubik_UI_UX_webdesign_terms-1-1024x768.jpg" />
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-img has-margin-right">
+            <img src="https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/Python-code_3.jpg?itok=F9KNa_QN" />
+          </div>
+          <div class="project-description">
+            <h2>
+Client Dynamic Portfolio
+</h2>
+            <p>
+               Connect with clients and industry peers,
+Forge collaborations and career endeavors.
+Share success stories and professional growth,
+A community of talent, supporting one another both.
+
+Browse through portfolios, a visual delight,
+Witness the mastery and creative might.
+On this website, clients' dreams come alive,
+A showcase of excellence
+
+            </p>
+            <a href="https://savagearun.github.io/karan" class="project-link" target="_blank"
+              ><i class="fa fa-github" aria-hidden="true"> View Site</i></a
+            >
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <p>
+          I'd love if you reached out to me. Even if it's just to say "Hey!".
+          Don't hesitate! Drop me a line and I’ll get back to you ASAP!
+        </p>
+        <p>
+          <i>Surly,i will help in any situation or circumtances don't worry DM a massage ,
+           i will reply everyone as soon as possible 
+            <strong>"Arun"</strong></i
+          >
+        </p>
+        <div class="container">
+          <p>
+            <a href="/cdn-cgi/l/email-protection#19586b6c77726c74786b696b78737869786d70202820597e74787075377a7674"><i class="fas fa-envelope-open"></i> <span class="__cf_email__" data-cfemail="d190a3a4bfbaa4bcb0a3a1a3b0bbb0a1b0a5b8e8e0e891b6bcb0b8bdffb2bebc">email&#160; savagearun666@gmail.com</span></a
+            >
+          </p>
+          
+          
+
+          <p>
+            <a href="https://www.linkedin.com/in/arun-prajapati-a5aa40262" target="_blank"><i class="fab fa-linkedin"> Linkedin</i></a>
+          </p>
+
+         
+
+          
+          <p>
+            <a href="" target="_blank"><i class="fab fa-instagram"> Instagram</i></a>
+          </p>
+          <p>
+            <a href="https://twitter.com/#" target="_blank"
+              ><i class="fab fa-twitter"> Twitter</i></a
+            >
+          </p>
+        </div>
+        <hr />
+      </section>
+      <footer>
+        <div class="footer-nav">
+          <a href="#landing-page" class="footer-nav-link">Home</a>
+          <a href="https://github.com/SavageArun" class="footer-nav-link">About</a>
+          <a href="https://savagearun.github.io/portfolio" class="footer-nav-link">Services</a>
+          <a href="https://savagearun.github.io/portfolio" class="footer-nav-link">Projects</a>
+          <a href="https://instagram.com/savage_arun?igshid=MzRlODBiNWFlZA==" class="footer-nav-link">Contact</a>
+        </div>
+        <div class="footer-coded-by">
+          <p>
+            <i class="fas fa-code"></i> with 💙 by Savage Arun &copy; 2023
+          </p>
+          <p>Built with pure HTML, CSS and JavaScript</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.youtube.com/channel/" target="_blank"><i class="fab fa-youtube"></i></a>
+          
+          <a href="https://twitter.com/#" target="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+         
+          <a href="https://www.linkedin.com/in/arun-prajapati-a5aa40262" target="  "><i class="fab fa-linkedin"></i></a>
+
+
+          <a href="https://instagram.com/savage_arun?igshid=MzRlODBiNWFlZA==" target="https://instagram.com/savage_arun?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
+
+
+        </div>
+      </footer>
+    </main>
+   <!-- <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/Savage_arun-static/email-decode.min.js"></script><script src="main.js"></script> -->
+  </body>
+</html>
+c/email-decode.min.js"></script><script src="main.js"></script> -->
+  </body>
+</html>
